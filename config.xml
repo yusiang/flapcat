@@ -12,4 +12,7 @@
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	<platform name="android" >
+		<preference name="orientation" value="landscape" />
+	</platform>
 </widget>
